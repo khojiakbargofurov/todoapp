@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'kumbh': ['Kumbh Sans', 'sans-serif'], // Add the Kumbh Sans font family
+      },
+    },
   },
   plugins: [
     require('daisyui'),

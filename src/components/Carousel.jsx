@@ -5,7 +5,7 @@ function Carousel() {
     <div className='max-w-[445px] h-auto  '>
       <div className="carousel">
         <div id="item1" className="carousel-item">
-          <img src="https://picsum.photos/450/450?random=1"/>
+          <img src="/"/>
         </div> 
         <div id="item2" className="carousel-item">
           <img src="https://picsum.photos/450/450?random=2"/>
